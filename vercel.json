@@ -1,1 +1,8 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+{
+  "builds": [
+    { "src": "myapp/package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "myapp/build/$1" }
+  ]
+}
