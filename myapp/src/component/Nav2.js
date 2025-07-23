@@ -17,7 +17,7 @@ function Nav2() {
             <h3 id="home">Home</h3>
           </Link>
         </div>
-        <div className="box-2">
+        {/* <div className="box-2">
           <Link to="/">
             <i class="fa-solid fa-book"></i>
           </Link>
@@ -33,7 +33,7 @@ function Nav2() {
           <Link to="/">
             <h3 id="home">Blog</h3>
           </Link>
-        </div>
+        </div> */}
         <div className="box-4">
           <Link to="/About">
             <i class="fa-solid fa-info"></i>
