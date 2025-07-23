@@ -5,7 +5,6 @@ import li from "../Images/li.png";
 import latop from "../Images/laptop.jpg";
 import student from "../Images/student.jpg";
 import python from "../Images/python.png";
-import skills from "../Images/skills.png";
 import "../css/About.css";
 import { Link } from "react-router-dom";
 import Nav2 from "./Nav2";
@@ -42,7 +41,7 @@ function About() {
             </Link>
           </div>
           <div className="Image-2">
-            <img src={ji} />
+            <img src={ji}  alt=""/>
           </div>
         </div>
 
@@ -50,7 +49,7 @@ function About() {
 
         <div className="Second-page">
           <div className="Sec-img">
-            <img src={team} />
+            <img src={team} alt=""/>
           </div>
           <div className="sec-text">
             <div className="Our-Coding">
@@ -92,7 +91,7 @@ function About() {
         {/* THIRD PAGE */}
         <div className="Third-page">
           <div className="third-img">
-            <img src={li} />
+            <img src={li}  alt=""/>
           </div>
           <div className="third-hading">
             <h1>What Sets Us Apart:</h1>
@@ -141,13 +140,13 @@ function About() {
             </p>
           </div>
           <div className="image-3">
-            <img src={latop} />
+            <img src={latop} alt="" />
           </div>
         </div>
         {/* FIVE PAGE */}
         <div className="five-page">
           <div className="image-4">
-            <img src={student} />
+            <img src={student} alt="" />
           </div>
           <div className="hading-2">
             <h1>Comprehensive Coding Education:</h1>
@@ -200,7 +199,7 @@ function About() {
             </p>
           </div>
           <div className="image-5">
-            <img src={python} />
+            <img src={python}  alt=""/>
           </div>
         </div>
         <Footer />

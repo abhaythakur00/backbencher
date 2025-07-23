@@ -2,7 +2,6 @@ import Backbencher from "./component/Backbencher";
 import Create from "./component/Create";
 import Login from "./component/Login";
 import Nav2 from "./component/Nav2";
-import Footer from "./component/Footer";
 import User from "./component/User";
 import Form from "./component/Form";
 import About from "./component/About";

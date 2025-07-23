@@ -1,12 +1,10 @@
-import images from "../Images/ab.jpg";
 import { Link } from "react-router-dom";
 import "../css/create.css";
 import Nav2 from "./Nav2";
-import Mobilenav from "./Mobilenav";
 function Create() {
-  const submit = () => {
-    alert("Create ho chuka hain");
-  };
+  // const submit = () => {
+  //   alert("Create ho chuka hain");
+  // };
   return (
     <div className="big-con">
       <Nav2 />
@@ -38,9 +36,9 @@ function Create() {
             <input type="password" placeholder=" Confourm Password" required />
             <br />
             <form action="">
-              <a href="">
+              
                 <button type="submit">Create</button>
-              </a>
+              
             </form>
             <div className="create-con1">
               <Link to="/Login">Login</Link>

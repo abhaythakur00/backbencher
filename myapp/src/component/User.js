@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/user.css'
-import {Link} from 'react-router-dom'
 function User() {
   return (
     <div>

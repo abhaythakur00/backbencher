@@ -1,11 +1,10 @@
-import images from"../Images/ab.jpg"
 import {Link} from 'react-router-dom'
 import '../css/login.css'
 import Nav2 from './Nav2'
 function Login(){
-    const submit = () => {
-        alert('Login ho chuka hain')
-    }
+    // const submit = () => {
+    //     alert('Login ho chuka hain')
+    // }
         return (
             <div className="big-con">            
             <Nav2/>
@@ -21,7 +20,7 @@ function Login(){
                     <label for="">Password</label><br/>
                     <input type="password" placeholder="Password" required/> <br/>
                     <form action="">
-                    <a href=""><button type="submit"> Log in</button></a>
+                    <button type="submit"> Log in</button>
                 </form>
                     <div className="login-con1"><Link to='/'>Forgotten Password ? </Link><br/> </div>
                     <div className="create-box"><Link to='/create'>Ragister Now</Link></div>
